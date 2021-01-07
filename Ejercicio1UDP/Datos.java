@@ -7,6 +7,11 @@ public class Datos implements Serializable {
 	private int numeroTerminos;
 	private int maximoLetras;
 
+	public Datos(int numeroTerminos, int maximoLetras) {
+		this.numeroTerminos = numeroTerminos;
+		this.maximoLetras = maximoLetras;
+	}
+
 	public int getNumeroTerminos() {
 		return numeroTerminos;
 	}

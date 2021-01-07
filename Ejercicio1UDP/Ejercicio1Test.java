@@ -14,6 +14,12 @@ public class Ejercicio1Test {
 	}
 
 	@Test
+	public void test111() {
+		Assertions.assertEquals("a10",
+								servidorUDP.generadorSeries(11, 1));
+	}
+
+	@Test
 	public void test64() {
 		Assertions.assertEquals("ab1",
 								servidorUDP.generadorSeries(6, 4));
